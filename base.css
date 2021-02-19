@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  background-color: lightblue;
+  width: 480px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+@media (min-width: 960px) {
+  body {
+    box-sizing: border-box;
+    background-color: lightslategrey;
+    width: 968px;
+    height: 768px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+    
+    
+}
+
+@media (max-width: 800px) {
+
+  body {
+    background-color: coral;
+    
+    
+  }
+}
+
